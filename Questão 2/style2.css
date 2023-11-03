@@ -18,3 +18,7 @@ h1{
 .question h3, p{
     text-align: justify;
 }
+
+label {
+   margin-left: 16px;
+}

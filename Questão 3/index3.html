@@ -20,7 +20,35 @@
         </p>
     </div>
 
+    <br><br>
+    <form id="transacaoForm">
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" name="descricao" required>
     
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" required>
+      
+        <button type="button" onclick="adicionarTransacao()">Adicionar</button>
+    </form>
+    
+    <br><br>
+    <table id="tabelaTransacoes">
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+
+        <tbody id="corpoTabela"></tbody>
+        
+        <tfoot>
+          <tr>
+            <td></td>
+            <td id="totalSaldo"></td>
+          </tr>
+        </tfoot>
+  </table>
 
     <script src="index3.js"></script>
 </body>

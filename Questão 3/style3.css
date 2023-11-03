@@ -15,6 +15,10 @@ h1{
     text-align: center;
 }
 
-.question h3, p{
+.question h3, p {
     text-align: justify;
+}
+
+label {
+    margin-left: 20px;
 }
